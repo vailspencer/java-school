@@ -3,6 +3,6 @@ package com.lambdaschool.schools.exceptions;
 public class ResourceNotFoundException extends RuntimeException
 {
     public ResourceNotFoundException(String message) {
-        super("Error from a Lambda App: " + message);
+        super("Found an Error with School: " + message);
     }
 }

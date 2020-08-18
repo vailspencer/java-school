@@ -87,6 +87,7 @@ public class StudentController
             Student newStudent) throws
                                 URISyntaxException
     {
+
         newStudent.setStudentid(0);
         newStudent = studentService.save(newStudent);
 
